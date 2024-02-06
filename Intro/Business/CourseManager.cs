@@ -36,9 +36,9 @@ public class CourseManager
         courses[1] = course2;
         courses[2] = course3;
     }
-    public void GetAll()
+    public Course[] GetAll()
     {
-        Console.WriteLine("Kurslar listelendi");
+        return courses;
     }
 
     public void Team() 
